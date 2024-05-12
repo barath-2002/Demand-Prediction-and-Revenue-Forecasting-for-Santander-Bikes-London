@@ -6,10 +6,9 @@ This project aims to predict demand and revenue for Santander cycles across Lond
 
 ### Key Features
 - Utilizes PySpark for data extraction from BigQuery.
-- Implements machine learning models including Linear Regression, Gradient Boosting Trees (GBT), Random Forests, ARIMA, SARIMA, and LSTM.
-- Incorporates geospatial matching with bus stop and tube station data using BigQuery GIS.
+- Implements machine learning models including Linear Regression, Gradient Boosting Trees (GBT), Random Forests for demand prediction
+- Implements time series models including ARIMA, SARIMA, and LSTM for revenue forecasting.
 - Evaluates model performance using root mean square error (RMSE) metrics.
-- Contributes to promoting a greener mode of commute and a carbon-neutral economy.
 
 ### Usage
 Clone the repository to your local machine.
